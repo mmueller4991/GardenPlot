@@ -10,6 +10,10 @@ namespace GardenPlot
     {
         static void Main(string[] args)
         {
+
+            Command command = new Command();
+            command.ExecuteCommand();  
+            
         }
     }
 }
